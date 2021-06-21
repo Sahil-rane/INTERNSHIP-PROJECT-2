@@ -1,0 +1,90 @@
+HTML CODE:
+<html>
+<head>
+<title>Registration Form</title>
+   <style>
+body{
+    background-image: url("talent.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+   </style>
+    <link rel="stylesheet" href="form.css">  
+</head>
+
+<body>
+<center> <h1>Talent Search Registration Form</h1> </center>
+<fieldset>
+    <legend><b> Name </b> </legend>
+    <label>Firstname:<input type="text" name="firstname"> </label>
+    <label>Lastname:<input type="text" name="lastname"> </label>
+</fieldset>
+<br>
+<fieldset>
+    <legend><b> Gender </b> </legend>
+    <label > <input type="radio" name="gender" value="male">Male </label>
+    <label > <input type="radio" name="gender" value="female">Female </label>
+</fieldset>
+<br>
+<fieldset>
+    <legend><b>Contact Info & E-mail-ID </b></legend>
+             Phone Number:<input type = "text" size="10"> <br><br>
+             Email ID : <input type = "text" size="10">
+</fieldset>
+<br>
+<fieldset>
+    <legend><b>Address</b></legend>
+       <textarea name="address" id="adress" cols="40" rows="5"></textarea>
+</fieldset>
+<br>
+<fieldset>
+    <legend><b>Birth Date</b></legend>
+        <label for = "start">Enter a Date</label>
+        <input type="date" placeholder="dd-mm-yyyy">
+</fieldset>
+<br>
+<fieldset>
+    <legend><b>Tell Us Your Talent</b></legend>
+    <label><input type="checkbox" name="talent" value="Singing">Singing</label><br>
+    <label><input type="checkbox" name="talent" value="Dancing">Dancing</label><br>
+    <label><input type="checkbox" name="talent" value="Cooking">Cokking</label><br>
+    <label><input type="checkbox" name="talent" value="Painting">Painting</label><br>
+    <label><input type="checkbox" name="talent" value="Standup Comedy">Standup Comedy</label>
+       
+</fieldset>
+<br>
+<fieldset>
+    <legend><b>Comments</b></legend>
+       <textarea name="comments" id="adress" cols="40" rows="5"></textarea>
+</fieldset>
+<br>
+            <div class "box">
+                <div cass="btn">
+                   <center> <button>Submit Form</button> </center>
+                </div>
+            </div>
+</body>
+</html>
+
+CSS CODE:
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: italic;
+}
+body h1{
+    font-family: Tahoma;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+body
+button{
+    background:grey;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
